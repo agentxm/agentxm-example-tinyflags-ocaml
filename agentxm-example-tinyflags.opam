@@ -12,9 +12,9 @@ receives stable rollout decisions.
 maintainer: "AgentXM <noreply@agentxm.ai>"
 authors: ["AgentXM"]
 license: "MIT"
-homepage: "https://github.com/agentxm/polyglot-examples/tree/main/ocaml-opam-lib"
-bug-reports: "https://github.com/agentxm/polyglot-examples/issues"
-dev-repo: "git+https://github.com/agentxm/polyglot-examples.git"
+homepage: "https://github.com/agentxm/agentxm-example-tinyflags-ocaml"
+bug-reports: "https://github.com/agentxm/agentxm-example-tinyflags-ocaml/issues"
+dev-repo: "git+https://github.com/agentxm/agentxm-example-tinyflags-ocaml.git"
 tags: ["feature-flags" "tinyflags" "axm"]
 
 depends: [
