@@ -1,0 +1,32 @@
+{
+  "$schema": "https://axm.sh/schemas/skill.schema.json",
+  "owner": "@examples",
+  "type": "skill",
+  "name": "ocaml-opam-tinyflags-add-flag",
+  "version": "0.1.0",
+  "description": "Wrap an OCaml code path in a TinyFlags feature flag and scaffold its alcotest cases.",
+  "keywords": [
+    "opam",
+    "ocaml",
+    "feature-flags",
+    "tinyflags"
+  ],
+  "homepage": "https://agentxm.ai/@examples/skills/ocaml-opam-tinyflags-add-flag",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentxm/polyglot-examples",
+    "directory": "ocaml-opam-lib/.axm/extensions/@examples/skills/ocaml-opam-tinyflags-add-flag"
+  },
+  "bugs": {
+    "url": "https://github.com/agentxm/polyglot-examples/issues"
+  },
+  "companionPackages": [
+    {
+      "purl": "pkg:opam/agentxm-example-tinyflags"
+    }
+  ],
+  "recommendedPacks": [
+    "@examples/packs/ocaml-opam-tinyflags"
+  ],
+  "standalone": false
+}

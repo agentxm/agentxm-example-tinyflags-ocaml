@@ -1,0 +1,32 @@
+{
+  "$schema": "https://axm.sh/schemas/skill.schema.json",
+  "owner": "@examples",
+  "type": "skill",
+  "name": "ocaml-opam-tinyflags-cleanup-flag",
+  "version": "0.1.0",
+  "description": "Retire a rolled-out TinyFlags flag from OCaml code, keeping the live branch and pruning dead tests.",
+  "keywords": [
+    "opam",
+    "ocaml",
+    "feature-flags",
+    "cleanup"
+  ],
+  "homepage": "https://agentxm.ai/@examples/skills/ocaml-opam-tinyflags-cleanup-flag",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentxm/polyglot-examples",
+    "directory": "ocaml-opam-lib/.axm/extensions/@examples/skills/ocaml-opam-tinyflags-cleanup-flag"
+  },
+  "bugs": {
+    "url": "https://github.com/agentxm/polyglot-examples/issues"
+  },
+  "companionPackages": [
+    {
+      "purl": "pkg:opam/agentxm-example-tinyflags"
+    }
+  ],
+  "recommendedPacks": [
+    "@examples/packs/ocaml-opam-tinyflags"
+  ],
+  "standalone": false
+}

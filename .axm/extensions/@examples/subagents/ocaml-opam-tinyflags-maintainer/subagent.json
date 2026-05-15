@@ -1,0 +1,32 @@
+{
+  "$schema": "https://axm.sh/schemas/subagent.schema.json",
+  "owner": "@examples",
+  "type": "subagent",
+  "name": "ocaml-opam-tinyflags-maintainer",
+  "version": "0.1.0",
+  "description": "Triage TinyFlags feature flags across an OCaml codebase and recommend cleanup or rollout follow-ups.",
+  "keywords": [
+    "opam",
+    "ocaml",
+    "feature-flags",
+    "tinyflags"
+  ],
+  "homepage": "https://agentxm.ai/@examples/subagents/ocaml-opam-tinyflags-maintainer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agentxm/polyglot-examples",
+    "directory": "ocaml-opam-lib/.axm/extensions/@examples/subagents/ocaml-opam-tinyflags-maintainer"
+  },
+  "bugs": {
+    "url": "https://github.com/agentxm/polyglot-examples/issues"
+  },
+  "companionPackages": [
+    {
+      "purl": "pkg:opam/agentxm-example-tinyflags"
+    }
+  ],
+  "recommendedPacks": [
+    "@examples/packs/ocaml-opam-tinyflags"
+  ],
+  "standalone": false
+}
