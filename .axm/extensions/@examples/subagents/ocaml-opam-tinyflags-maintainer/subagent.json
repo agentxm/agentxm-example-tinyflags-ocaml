@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/agentxm/polyglot-examples/issues"
   },
-  "companionPackages": [
+  "packages": [
     {
       "purl": "pkg:opam/agentxm-example-tinyflags"
     }
