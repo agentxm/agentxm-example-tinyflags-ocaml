@@ -1,0 +1,9 @@
+#!/bin/sh
+set -eu
+
+command -v axm >/dev/null 2>&1 || {
+  echo "AXM is required: https://axm.sh" >&2
+  exit 1
+}
+
+axm lint --staged --strict
