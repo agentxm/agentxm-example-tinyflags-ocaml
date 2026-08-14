@@ -6,4 +6,4 @@ command -v axm >/dev/null 2>&1 || {
   exit 1
 }
 
-axm lint --staged --strict
+axm lint --view git-index --strict

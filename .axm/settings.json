@@ -6,7 +6,8 @@
   "skills": {
     "ocaml-opam-tinyflags-add-flag": "workspace:@examples/skills/ocaml-opam-tinyflags-add-flag",
     "ocaml-opam-tinyflags-rollout-review": "workspace:@examples/skills/ocaml-opam-tinyflags-rollout-review",
-    "ocaml-opam-tinyflags-cleanup-flag": "workspace:@examples/skills/ocaml-opam-tinyflags-cleanup-flag"
+    "ocaml-opam-tinyflags-cleanup-flag": "workspace:@examples/skills/ocaml-opam-tinyflags-cleanup-flag",
+    "axm": "workspace:@agentxm/skills/axm"
   },
   "subagents": {
     "ocaml-opam-tinyflags-maintainer": "workspace:@examples/subagents/ocaml-opam-tinyflags-maintainer"
