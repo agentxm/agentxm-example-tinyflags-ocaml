@@ -1,0 +1,10 @@
+lockfileVersion: 4
+skills:
+  axm:
+    type: registry
+    owner: "@agentxm"
+    name: axm
+    resolvedVersion: 0.27.11
+    integrity: sha512-t3AehSeKGZPlJBHy+detqCNHNmCNNJz+fHYXCq482JC1LBfTqNXxqhkd+DDpSds4StNPKbC7jpCB1d2pZ14M7g==
+    sourceName: default
+    publisherBindingId: hbnd_01ks5vvdf0efz9m4w5qsv4q5qp
