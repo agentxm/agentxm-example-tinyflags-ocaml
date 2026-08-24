@@ -2,6 +2,10 @@
   "$schema": "https://axm.sh/schemas/settings.schema.json",
   "owner": "@agentxm",
   "agents": [],
+  "minimumReleaseAgeExclude": [
+    "@agentxm/*",
+    "@craigsmitham/*"
+  ],
   "skills": {
     "ocaml-opam-tinyflags-add-flag": "workspace:@examples/skills/ocaml-opam-tinyflags-add-flag",
     "ocaml-opam-tinyflags-rollout-review": "workspace:@examples/skills/ocaml-opam-tinyflags-rollout-review",
