@@ -4,7 +4,7 @@ skills:
     type: registry
     owner: "@agentxm"
     name: axm
-    resolvedVersion: 0.27.15
-    integrity: sha512-zeg65kkMbKFVfw1dN4XreXHJtDW6Ov6MF9R+5lu+2rpC98JGVQVT+TYfGj3NPNeNtBQ1yTzGYiD/ck75VfRVTA==
+    resolvedVersion: 0.27.17
+    integrity: sha512-BYP3WzVgZqR8/KGiMJ0bq3P3HeE6Ks3fBxjJWa+yjis3h26ZV+uSQb+LmDltLdsSkligrHOVgZ6nCouAs+bSPQ==
     sourceName: default
     publisherBindingId: hbnd_01ks5vvdf0efz9m4w5qsv4q5qp
