@@ -1,0 +1,21 @@
+{
+  "$schema": "https://axm.sh/schemas/settings.schema.json",
+  "owner": "@examples",
+  "agents": [],
+  "minimumReleaseAgeExclude": [
+    "@agentxm/*",
+    "@craigsmitham/*"
+  ],
+  "skills": {
+    "ocaml-opam-tinyflags-add-flag": "workspace",
+    "ocaml-opam-tinyflags-rollout-review": "workspace",
+    "ocaml-opam-tinyflags-cleanup-flag": "workspace",
+    "axm": "agentxm:@agentxm/skills/axm"
+  },
+  "subagents": {
+    "ocaml-opam-tinyflags-maintainer": "workspace"
+  },
+  "packs": {
+    "ocaml-opam-tinyflags": "workspace"
+  }
+}
