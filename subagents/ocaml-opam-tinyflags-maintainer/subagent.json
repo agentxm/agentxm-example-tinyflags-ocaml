@@ -28,5 +28,8 @@
   "recommendedPacks": [
     "@examples/packs/ocaml-opam-tinyflags"
   ],
-  "standalone": false
+  "standalone": false,
+  "core": {
+    "instructions": "src/ocaml-opam-tinyflags-maintainer.md"
+  }
 }
