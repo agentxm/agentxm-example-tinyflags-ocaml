@@ -10,7 +10,10 @@
     "ocaml-opam-tinyflags-add-flag": "workspace",
     "ocaml-opam-tinyflags-rollout-review": "workspace",
     "ocaml-opam-tinyflags-cleanup-flag": "workspace",
-    "axm": "agentxm:@agentxm/skills/axm"
+    "axm": {
+      "source": "workspace",
+      "origin": "bundled"
+    }
   },
   "subagents": {
     "ocaml-opam-tinyflags-maintainer": "workspace"
